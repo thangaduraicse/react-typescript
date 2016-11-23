@@ -1,0 +1,14 @@
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.orig
+.DS_Store
+.idea
+.project
+node_modules
+npm-debug.*
