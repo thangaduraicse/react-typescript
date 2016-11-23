@@ -4,7 +4,19 @@
   "description": "React Redux App Using Typescript and Webpack",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rimraf": "rimraf",
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "http-server": "http-server",
+    "clean": "npm cache clean && npm run rimraf -- node_modules www",
+    "clean:www": "npm run rimraf -- www",
+    "preclean:install": "npm run clean",
+    "clean:install": "npm set progress=false && npm install",
+    "prebuild": "npm run clean:www",
+    "build": "npm run webpack -- --config config/webpack.prod.js --progress --profile --bail",
+    "dev-server": "npm run webpack-dev-server -- --config config/webpack.dev.js --progress --profile --watch",
+    "start": "concurrently \"npm run dev-server\"",
+    "build-serve": "npm run build && npm run http-server -- www/"
   },
   "repository": {
     "type": "git",
