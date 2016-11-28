@@ -36,7 +36,7 @@ module.exports = webpackMerge(commonConfig, {
     loaders: [
       {
         test: /\.css$/,
-        loaders: ["style", "css", "postcss"]
+        loaders: ["style-loader", "css-loader", "postcss-loader"]
       }
     ]
   },

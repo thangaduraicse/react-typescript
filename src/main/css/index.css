@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url('../fonts/ubuntu.ttf') format("truetype");
+}
+html {
+  font-family: "Ubuntu", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+body {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  background: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#root {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*Override the Bootstrap container*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 950px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
