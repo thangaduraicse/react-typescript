@@ -29,7 +29,7 @@ $ npm install -g http-server
 ### Installation
 
 ```sh
-$ git clone https://code.cognizant.com/thangadurai/react-typescript.git
+$ git clone https://github.com/thangaduraicse/react-typescript.git
 $ cd react-typescript
 $ npm install
 ```
@@ -61,6 +61,3 @@ $ npm start
 
 Goto the browser : http://localhost:3000
 ```
-
-### Useful Stack Overflow Links
-- [https://code.cognizant.com/thangadurai/react-typescript](https://code.cognizant.com/thangadurai/react-typescript)
