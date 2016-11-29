@@ -1,13 +1,13 @@
 import {createStore, applyMiddleware} from "redux";
 import thunk from "redux-thunk";
-import createLogger from "redux-logger";
+import * as createLogger from "redux-logger";
 
 import rootReducer from "../reducer";
 
-// const logger = createLogger();
+const logger = createLogger();
 const middlewares = [
   thunk,
-  // logger,
+  logger,
   require("redux-immutable-state-invariant")()
 ];
 
