@@ -1,4 +1,3 @@
-http://stackoverflow.com/questions/39133620/export-entire-module-as-constructor
 # React Redux Typescript+TSX Webpack Starter Project
 
 This project using the power and simplicity of the React, Redux, Webpack + HMR and Typescript+TSX via babel.
@@ -14,6 +13,7 @@ The technology stack used in the project:
 - [React Router Redux](https://github.com/reactjs/react-router-redux) — simple bindings to keep React Router and Redux in sync
 - [npm](https://www.npmjs.com/) — package manager
 - [Babel 6](http://babeljs.io/) — transpiler from ES6 / JSX to ES5, which is supported by all browsers
+- [Typescript 2.0](https://www.typescriptlang.org/docs/handbook/basic-types.html) - It is a typed superset of Javascript that compiles to plain Javascript
 - [Underscore](http://underscorejs.org/) — String Manipulation
 
 ## Getting Started
@@ -61,3 +61,6 @@ $ npm start
 
 Goto the browser : http://localhost:3000
 ```
+
+### Useful Stack Overflow Links
+- [https://code.cognizant.com/thangadurai/react-typescript](https://code.cognizant.com/thangadurai/react-typescript)
