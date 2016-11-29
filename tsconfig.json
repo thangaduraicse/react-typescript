@@ -1,25 +1,33 @@
 {
-  "compileOnSave": false,
+  "awesomeTypescriptLoaderOptions": {
+    "forkCheckerSilent": true,
+    "useBabel": true
+  },
   "buildOnSave": false,
+  "compileOnSave": false,
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
-    "moduleResolution": "node",
-    "baseUrl": "src",
     "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "diagnostics": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "noImplicitAny": false,
-    "removeComments": false,
-    "sourceMap": false,
     "inlineSourceMap": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "crlf",
     "outDir": "www",
-    "jsx": "react"
-  },
-  "awesomeTypescriptLoaderOptions": {
-    "useBabel": true,
-    "useCache": false,
-    "emitRequireType": false
+    "paths": {
+      "jquery": ["node_modules/jquery/dist/jquery"]
+    },
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es5"
   },
   "exclude": [
     "node_modules",

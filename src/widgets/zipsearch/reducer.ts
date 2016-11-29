@@ -1,4 +1,5 @@
 import {Zipcodes, Zipcode, IState} from "./model";
+
 const constant = require("./constants");
 
 const initialState: IState = {

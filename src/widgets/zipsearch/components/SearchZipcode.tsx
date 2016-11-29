@@ -1,6 +1,5 @@
 import * as React from "react";
 import {connect} from "react-redux";
-// http://stackoverflow.com/questions/39133620/export-entire-module-as-constructor
 const zipcodeActions = require("../actions");
 
 interface SearchZipcodeProps {
