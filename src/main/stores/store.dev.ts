@@ -4,10 +4,10 @@ import createLogger from "redux-logger";
 
 import rootReducer from "../reducer";
 
-const logger = createLogger();
+// const logger = createLogger();
 const middlewares = [
   thunk,
-  logger,
+  // logger,
   require("redux-immutable-state-invariant")()
 ];
 

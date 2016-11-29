@@ -70,7 +70,7 @@ module.exports = {
       chunksSortMode: "dependency"
     }),
     new CopyWebpackPlugin([{
-      from: "src/img",
+      from: "src/main/img",
       to: "img"
     }]),
     new webpack.LoaderOptionsPlugin({

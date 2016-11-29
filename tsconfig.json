@@ -13,7 +13,6 @@
     "removeComments": false,
     "sourceMap": false,
     "inlineSourceMap": true,
-    "noEmitHelpers": true,
     "outDir": "www",
     "jsx": "react"
   },
